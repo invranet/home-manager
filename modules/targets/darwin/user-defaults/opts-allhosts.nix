@@ -135,6 +135,11 @@ in
         example = 64;
         description = "Sets the size of the dock.";
       };
+      show-recents = mkNullableOption {
+        type = types.bool;
+        example = true;
+        description = "Show the recently used applications in the dock.";
+      };
     };
 
     "com.apple.finder" = {
